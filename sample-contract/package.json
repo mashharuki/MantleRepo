@@ -6,5 +6,8 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
     "hardhat": "^2.17.3"
+  },
+  "scripts": {
+    "deploy:mantle-testnet": "npx hardhat run scripts/deploy.js --network mantle-testnet"
   }
 }
